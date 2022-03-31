@@ -4,6 +4,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color:rgb(130, 204, 130);
 }
 
 .main {
@@ -17,9 +18,11 @@
 
 .computerwrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-grow: 1;
+  position: relative;
+  left: 300px;
 }
 
 .wholecomputer {
@@ -260,5 +263,4 @@
   border-radius: 50%;
   position: relative;
   bottom: 20px;
-  z-index: -1;
 }
