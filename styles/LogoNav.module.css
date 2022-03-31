@@ -1,0 +1,8 @@
+.logonav {
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(19, 212, 19);
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 25px;
+}

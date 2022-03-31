@@ -219,14 +219,6 @@
     align-items: center;
   }
   
-  .logo {
-    font-size: 20px;
-    color: rgb(19, 212, 19);
-    background-color: black;
-    border: 3px solid black;
-    border-radius: 25px;
-  }
-  
   .monitorneck {
     width: 100px;
     height: 0;
@@ -275,9 +267,6 @@
     width: 426px;
     height: 59px;
   }
-  .logo {
-    font-size: 16px;
-  }
   .monitorneck {
     width: 80px;
     height: 0;
@@ -305,9 +294,6 @@
     .monitorbottom {
       width: 344px;
       height: 48px;
-    }
-    .logo {
-      font-size: 15px;
     }
     .monitorneck {
       width: 70px;

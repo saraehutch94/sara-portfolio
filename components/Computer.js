@@ -1,4 +1,5 @@
 import styles from '../styles/Computer.module.css'
+import Logo from './Logo'
 
 function Computer() {
     return (
@@ -16,7 +17,7 @@ function Computer() {
                   </div>
                 </div>
                 <div className={styles.monitorbottom}>
-                  <div className={styles.logo}>&lt;S3H&gt;</div>
+                    <Logo />
                 </div>
                 <div className={styles.monitorneck}></div>
                 <div className={styles.monitorstand}></div>
