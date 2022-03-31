@@ -1,6 +1,6 @@
 .computerwrapper {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-grow: 1;
   }
@@ -243,4 +243,79 @@
     border-radius: 50%;
     position: relative;
     bottom: 20px;
+  }
+
+@media only screen and (max-width: 1126px) {
+    .computerwrapper {
+        margin-left: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .computerwrapper {
+        margin-left: 0;
+        margin-top: 10rem;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .computerwrapper {
+        margin-left: 0;
+        margin-top: 8rem;
+    }
+  .monitortop {
+    width: 400px;
+    height: 240px;
+    border: 13px solid black;
+  }
+  .monitortext {
+    font-size: 14px;
+  }
+  .monitorbottom {
+    width: 426px;
+    height: 59px;
+  }
+  .logo {
+    font-size: 16px;
+  }
+  .monitorneck {
+    width: 80px;
+    height: 0;
+    border-bottom: 60px solid #bfc5cc;
+  }
+  .monitorstand {
+    width: 160px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+    .computerwrapper {
+        margin-left: 0;
+        margin-top: 4rem;
+    }
+    .monitortop {
+      width: 320px;
+      height: 210px;
+      border: 12px solid black;
+    }
+    .monitortext {
+      font-size: 12px;
+    }
+    .monitorbottom {
+      width: 344px;
+      height: 48px;
+    }
+    .logo {
+      font-size: 15px;
+    }
+    .monitorneck {
+      width: 70px;
+      height: 0;
+      border-bottom: 50px solid #bfc5cc;
+    }
+    .monitorstand {
+      width: 160px;
+      height: 25px;
+    }
   }

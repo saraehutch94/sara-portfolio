@@ -4,7 +4,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color:rgb(130, 204, 130);
 }
 
 .main {
@@ -16,9 +15,26 @@
   align-items: center;
 }
 
+.welcomecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+  bottom: 50px;
+}
+
+.wholeintrotext {
+  margin-right: 5rem;
+}
+
+.flexcontent {
+  display: flex;
+}
+
 .introtext {
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 500;
   color: #243241;
   text-shadow: 4px 4px #bfc5cc;
   font-family: 'Rubik', sans-serif; 
@@ -33,4 +49,43 @@
 .intropara {
   font-size: 22px;
   color: #243241;
+}
+
+@media only screen and (max-width: 1126px) {
+  .wholeintrotext {
+    margin-right: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .flexcontent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .wholeintrotext {
+    margin: 10px 0 50px 0;
+    text-align: center;
+  }
+
+  .welcomecontent {
+    position: static;
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .introtext {
+    font-size: 40px;
+    text-shadow: 3.5px 3.5px #bfc5cc;
+  }
+  .introparawrapper {
+    padding: 10px;
+    background-color: rgba(191, 197, 204, 0.8);
+    border-radius: 25px;
+  }
+  .intropara {
+    font-size: 20px;
+    color: #243241;
+  }
 }
