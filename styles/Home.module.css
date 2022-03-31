@@ -61,6 +61,7 @@
   .flexcontent {
     display: flex;
     flex-direction: column-reverse;
+    z-index: -1;
   }
 
   .wholeintrotext {
