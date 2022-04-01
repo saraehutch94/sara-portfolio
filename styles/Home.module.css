@@ -35,8 +35,8 @@
 .introtext {
   font-size: 45px;
   font-weight: 500;
-  color: #243241;
-  text-shadow: 4px 4px #bfc5cc;
+  color: rgb(34 197 94);
+  /* text-shadow: 4px 4px #bfc5cc; */
   font-family: 'Rubik', sans-serif; 
 }
 
