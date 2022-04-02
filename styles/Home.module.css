@@ -39,15 +39,9 @@
   font-family: 'Rubik', sans-serif; 
 }
 
-.introparawrapper {
-  padding: 12px;
-  background-color: rgba(191, 197, 204, 0.8);
-  border-radius: 25px;
-}
-
 .intropara {
   font-size: 22px;
-  color: #243241;
+  color: white;
 }
 
 @media only screen and (max-width: 1126px) {
