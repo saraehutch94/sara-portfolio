@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      'white': '#ffffff',
       'navDarkGreen': '#0D2823',
       'navLightGreenHover': '#184a41',
       'navIconReg': '#22C55D',
