@@ -8,7 +8,7 @@ function About() {
             <NavPages />
             <div className="min-h-screen flex flex-col font-sans">
                 <div className="h-screen grow flex flex-col justify-center items-center">
-                    <div className="flex flex-col-reverse xl:flex-row justfy-center items-center xl:mt-0 md:mt-96 sm:mt-[250px] xs:mt-[300px] mt-[500px]">
+                    <div className="flex flex-col-reverse xl:flex-row justfy-center items-center xl:mt-0 md:mt-96 xs:mt-[300px] mt-[500px]">
                         <div className="xl:w-8/12 xl:text-left text-center space-y-3.5 mt-10 xl:mb-0 mb-10">
                             <div className="md:text-6xl text-5xl text-navIconReg font-medium">about me</div>
                             <div className="text-white md:text-3xl text-2xl">I am a Software Developer from Boston, MA</div>
@@ -22,10 +22,13 @@ function About() {
                                 <a href="https://github.com/saraehutch94" target="_blank" rel="noreferrer"><div className="cursor-pointer"><Image src="https://i.imgur.com/4STVaVZ.png" height="44px" width="54px" alt="github logo"/></div></a>
                             </div>
                         </div>
-                        <div className="md:block hidden">
+                        <div className="lg:block hidden">
                             <Image src="https://i.imgur.com/sNpTVEq.jpg" width="500px" height="500px" alt="photo of Sara" className="rounded-full" responsive/>
                         </div>
-                        <div className="md:hidden">
+                        <div className="md:block lg:hidden hidden">
+                            <Image src="https://i.imgur.com/sNpTVEq.jpg" width="400px" height="400px" alt="photo of Sara" className="rounded-full" responsive/>
+                        </div>
+                        <div className="sm:block md:hidden">
                             <Image src="https://i.imgur.com/sNpTVEq.jpg" width="350px" height="350px" alt="photo of Sara" className="rounded-full" responsive/>
                         </div>
                     </div>
