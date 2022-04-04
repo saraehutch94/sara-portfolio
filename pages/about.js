@@ -1,10 +1,11 @@
 import NavPages from '../components/NavPages'
-import Link from 'next/link'
+import Meta from '../components/Meta'
 import Image from 'next/image'
 
 function About() {
     return (
         <>
+            <Meta keywords="software developer, software engineer, web developer, programming, programmer, React, Boston, S3H" description="My name is Sara Hutchinson, a full-stack software developer based out of the Greater Boston area of Massachusetts. Check out my work and reach out!" title='<S3H> - About'/>
             <NavPages />
             <div className="min-h-screen flex flex-col font-sans">
                 <div className="h-screen grow flex flex-col justify-center items-center">
