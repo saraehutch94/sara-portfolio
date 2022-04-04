@@ -12,6 +12,14 @@ module.exports = {
       'navIconHover': '#49DE80',
       'greenBody': '#123A33',
     },
+    screens: {
+      'xs': '376px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       fontFamily: {
         sans: ['Rubik'],
