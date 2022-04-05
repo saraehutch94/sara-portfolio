@@ -24,6 +24,12 @@ module.exports = {
       fontFamily: {
         sans: ['Rubik'],
       },
+      transitionProperty: {
+        'height-width': 'height, width',
+      },
+      transitionDuration: {
+        '0.25': '0.25s',
+      },
     },
   },
   plugins: [],
