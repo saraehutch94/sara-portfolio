@@ -25,17 +25,23 @@ module.exports = {
         sans: ['Rubik'],
       },
       width: {
+        '20': '20px',
         '401.33': '401.33px',
         '475': '475px',
+        '700': '700px',
+        '802': '802px',
         '1189': '1189px',
         '1204': '1204px',
       },
       height: {
+        '20': '20px',
         '320': '320px',
         '328': '328px',
       },
       transitionProperty: {
+        'font-size': 'font-size',
         'height-width': 'height, width',
+        'display': 'display',
       },
       transitionDuration: {
         '0.25': '0.25s',
