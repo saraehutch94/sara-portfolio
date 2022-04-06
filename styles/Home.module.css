@@ -51,6 +51,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .main {
+    display: block;
+  }
+  
   .flexcontent {
     display: flex;
     flex-direction: column-reverse;
@@ -72,13 +76,8 @@
   .introtext {
     font-size: 40px;
   }
-  .introparawrapper {
-    padding: 10px;
-    background-color: rgba(191, 197, 204, 0.8);
-    border-radius: 25px;
-  }
   .intropara {
-    font-size: 20px;
-    color: #243241;
+    font-size: 22px;
+    color: white;
   }
 }
