@@ -12,6 +12,9 @@ module.exports = {
       'navIconHover': '#49DE80',
       'greenBody': '#123A33',
     },
+    backgroundImage: {
+      'loader': "url('https://i.imgur.com/GQC0Seg.gifv')"
+    },
     screens: {
       'xs': '375px',
       '1xs': '500px',
