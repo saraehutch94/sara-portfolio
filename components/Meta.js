@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import photo from '../public/portfolio_img.png'
 
 function Meta(props) {
     return (
@@ -10,7 +9,7 @@ function Meta(props) {
             <meta property="og:title" content="Sara" />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.s3h.dev/" />
-            <meta property="og:image" content={photo} />
+            <meta property="og:image" content='portfolio_img.png' />
             <meta charSet='utf-8' />
             <link rel='icon' href='/favicon.ico' />
             <title>{props.title}</title>
