@@ -7,7 +7,7 @@ function Meta(props) {
             <meta name='viewport' content='width=device-width, initial-scale=1' />
             <meta name='keywords' content={props.keywords} />
             <meta name='description' content={props.description} />
-            <meta property="og:title" content="<S3H>" />
+            <meta property="og:title" content="Sara" />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.s3h.dev/" />
             <meta property="og:image" content={photo} />
