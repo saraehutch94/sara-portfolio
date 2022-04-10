@@ -2,11 +2,12 @@ import Meta from '../components/Meta'
 import NavHome from '../components/NavHome'
 import Computer from '../components/Computer'
 import styles from '../styles/Home.module.css'
+import photo from '../public/portfolio_img.png'
 
 export default function Home() {
   return (
       <>
-        <Meta keywords="software developer, software engineer, web developer, programming, programmer, React, Boston, S3H" description="My name is Sara Hutchinson, a full-stack software developer based out of the Greater Boston area of Massachusetts. Check out my work and reach out!" title='<S3H> - Home'/>
+        <Meta keywords="software developer, software engineer, web developer, programming, programmer, React, Boston, S3H" description="My name is Sara Hutchinson, a full-stack software developer based out of the Greater Boston area of Massachusetts. Check out my work and reach out!" title='<S3H> - Home' photo={photo}/>
         <NavHome />
         <div className={styles.flex}>
           <div className={styles.main}>
