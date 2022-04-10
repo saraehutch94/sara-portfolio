@@ -11,7 +11,7 @@ function Resume() {
                 <div className="h-full grow flex flex-col justify-center items-center">
                 <div className="text-6xl font-medium text-navIconReg mt-20 mb-10">resume</div>
                 <div className="mb-16">
-                    <iframe src="https://drive.google.com/file/d/1D5cdkQQ399a-azIIEvaBfcuVoOUH6IUu/preview" width="640" height="830" allow="autoplay"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1Uv_VNKzOe7x4DYJX-wAk53RBs2DklDCz/preview" width="640" height="830" allow="autoplay"></iframe>
                 </div>
                 </div>
             </div>
