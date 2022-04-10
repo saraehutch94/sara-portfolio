@@ -5,19 +5,21 @@ module.exports = {
   ],
   theme: {
     colors: {
+      'black':'#000000',
       'white': '#ffffff',
       'navDarkGreen': '#0D2823',
       'navLightGreenHover': '#184a41',
+      'codeText': '#13d413',
       'navIconReg': '#22C55D',
       'navIconHover': '#49DE80',
       'greenBody': '#123A33',
     },
-    backgroundImage: {
-      'loader': "url('https://i.imgur.com/GQC0Seg.gifv')"
-    },
     screens: {
       'xs': '375px',
+      '0xs': '390px',
+      '00xs': '440px',
       '1xs': '500px',
+      '2xs': '560px',
       'sm': '640px',
       'md': '768px',
       '2md': '968px',
@@ -33,6 +35,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Rubik'],
+        sourceCodePro: ['Source Code Pro'],
       },
       width: {
         '20': '20px',
@@ -40,6 +43,7 @@ module.exports = {
         '24': '24px',
         '40': '40px',
         '345': '345px',
+        '350': '350px',
         '375': '375px',
         '386': '386px',
         '390': '390px',
@@ -50,6 +54,7 @@ module.exports = {
         '450': '450px',
         '485': '485px',
         '500': '500px',
+        '513': '513px',
         '550': '550px',
         '600': '600px',
         '700': '700px',
