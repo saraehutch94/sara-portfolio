@@ -9,7 +9,7 @@ function Meta(props) {
             <meta property="og:title" content="The Rock" />
             <meta property="og:type" content="video.movie" />
             <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
-            <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+            <meta property="og:image" content="https://m.media-amazon.com/images/I/81W+Rih-KcL._AC_SL1500_.jpg" />
             <meta charSet='utf-8' />
             <link rel='icon' href='/favicon.ico' />
             <title>{props.title}</title>
