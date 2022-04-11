@@ -284,7 +284,7 @@
       margin-top: 3rem;
   }
   .monitortop {
-    width: 320px;
+    width: 100px;
     height: 210px;
     border: 12px solid black;
   }
@@ -313,7 +313,6 @@
     .monitortop {
       width: 300px;
       height: 200px;
-      color:rgb(212, 19, 209);
       border: 12px solid black;
     }
     .monitortext {
