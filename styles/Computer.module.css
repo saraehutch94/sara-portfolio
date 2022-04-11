@@ -280,18 +280,18 @@
 
 @media only screen and (max-width: 450px) {
   .computerwrapper {
-    margin-top: 4rem;
+    margin-top: 7rem;
   }
   .monitortop {
-    width: 320px;
-    height: 200px;
+    width: 340px;
+    height: 210px;
     border: 12px solid black;
   }
   .monitortext {
-    font-size: 11.5px;
+    font-size: 12px;
   }
   .monitorbottom {
-    width: 342px;
+    width: 362px;
     height: 48px;
   }
   .monitorneck {
