@@ -332,3 +332,11 @@
       height: 22px;
     }
   }
+
+@media only screen and (max-width: 350px) {
+  .monitortop {
+    width: 100px;
+    height: 200px;
+    border: 12px solid black;
+  }
+}
