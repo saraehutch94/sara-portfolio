@@ -15,6 +15,7 @@ module.exports = {
       'greenBody': '#123A33',
     },
     screens: {
+      'super-xs': '350px',
       'xs': '375px',
       '0xs': '390px',
       '00xs': '440px',
