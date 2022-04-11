@@ -279,11 +279,32 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .computerwrapper {
+    margin-top: 4rem;
+  }
   .monitortop {
-    color:rgb(180, 19, 212);
+    width: 300px;
+    height: 200px;
+    border: 12px solid black;
+  }
+  .monitortext {
+    font-size: 11px;
+  }
+  .monitorbottom {
+    width: 321px;
+    height: 48px;
+  }
+  .monitorneck {
+    width: 65px;
+    height: 0;
+    border-bottom: 50px solid #bfc5cc;
+  }
+  .monitorstand {
+    width: 150px;
+    height: 22px;
   }
 }
-
+/* 
 @media only screen and (max-width: 390px) {
   .computerwrapper {
       margin-left: 0;
@@ -337,4 +358,4 @@
       width: 150px;
       height: 22px;
     }
-  }
+  } */
