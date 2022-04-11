@@ -278,6 +278,12 @@
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .monitortop {
+    color:rgb(180, 19, 212);
+  }
+}
+
 @media only screen and (max-width: 390px) {
   .computerwrapper {
       margin-left: 0;
