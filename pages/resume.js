@@ -10,7 +10,7 @@ function Resume() {
             <div className="min-h-screen flex flex-col font-sans">
                 <div className="h-full grow flex flex-col justify-center items-center">
                 <div className="text-6xl font-medium text-navIconReg mt-28 mb-7">resume</div>
-                <div className="text-white mb-10"><a href="https://drive.google.com/file/d/1RyfaPaSDzgQ8TyTFupEq_UolC_wlMSS-/view" download="sara-h-resume" target="_blank" rel="noreferrer" className="text-navIconReg hover:navIconHover">Download PDF here</a></div>
+                <div className="text-white mb-10"><a href="https://drive.google.com/file/d/1_1fok4zZuPElYNpuKLky8GDT_9Uk6qmm/view" download="sara-h-resume" target="_blank" rel="noreferrer" className="text-navIconReg hover:navIconHover">Download PDF here</a></div>
                 <div className="border-2 border-white 2md:w-8/12 w-11/12 mb-20">
                     <div className="text-center text-white mb-9 mt-10">
                         <h1>Sara Hutchinson</h1>
